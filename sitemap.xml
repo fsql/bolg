@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://fsql.me/delete-a-large-number-of-files/</loc>
+    
+    <lastmod>2021-03-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://fsql.me/eth-quantitative-transaction/</loc>
+    
+    <lastmod>2021-01-11</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://fsql.me/get-new-domain-loli-watch/</loc>
     
     <lastmod>2020-10-16</lastmod>
@@ -67,7 +81,7 @@
 
   <url>
     <loc>https://fsql.me/</loc>
-    <lastmod>2020-10-16</lastmod>
+    <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,42 +89,63 @@
   
   <url>
     <loc>https://fsql.me/tags/PHP/</loc>
-    <lastmod>2020-10-16</lastmod>
+    <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://fsql.me/tags/%E8%BF%90%E7%BB%B4/</loc>
-    <lastmod>2020-10-16</lastmod>
+    <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://fsql.me/tags/Python/</loc>
-    <lastmod>2020-10-16</lastmod>
+    <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://fsql.me/tags/VUE/</loc>
-    <lastmod>2020-10-16</lastmod>
+    <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://fsql.me/tags/redis/</loc>
-    <lastmod>2020-10-16</lastmod>
+    <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://fsql.me/tags/%E9%AD%94%E6%9C%AF%E6%96%B9%E6%B3%95/</loc>
-    <lastmod>2020-10-16</lastmod>
+    <lastmod>2021-03-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fsql.me/tags/centos/</loc>
+    <lastmod>2021-03-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fsql.me/tags/eth/</loc>
+    <lastmod>2021-03-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fsql.me/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/</loc>
+    <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -119,28 +154,28 @@
   
   <url>
     <loc>https://fsql.me/categories/%E6%9D%82%E6%96%87/</loc>
-    <lastmod>2020-10-16</lastmod>
+    <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://fsql.me/categories/%E8%BF%90%E7%BB%B4/</loc>
-    <lastmod>2020-10-16</lastmod>
+    <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://fsql.me/categories/VUE/</loc>
-    <lastmod>2020-10-16</lastmod>
+    <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://fsql.me/categories/PHP/</loc>
-    <lastmod>2020-10-16</lastmod>
+    <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

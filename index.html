@@ -288,6 +288,181 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://fsql.me/delete-a-large-number-of-files/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="FreezingTiny">
+      <meta itemprop="description" content="PHPer">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="FreezingTiny's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/delete-a-large-number-of-files/" class="post-title-link" itemprop="url">centos删除大量文件</a>
+        </h2>
+
+        <div class="post-meta">
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-03-15 11:03:52 / 修改时间：11:09:18" itemprop="dateCreated datePublished" datetime="2021-03-15T11:03:52+08:00">2021-03-15</time>
+            </span>
+
+          
+            <span id="/delete-a-large-number-of-files/" class="post-meta-item leancloud_visitors" data-flag-title="centos删除大量文件" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/delete-a-large-number-of-files/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/delete-a-large-number-of-files/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody" >
+
+      
+          <p>今天在查看服务器时发现磁盘使用率巨高，新加的200G云盘已经用了70%多</p>
+<p>经过排查发现是crontab的输出记录，文件路径是<br><code>/var/spool/postfix/maildrop</code></p>
+<p>尝试 <code>rm -rf *</code></p>
+<p>结果提示 <code>Argument list too long</code></p>
+<p>文件太多无法直接删掉</p>
+<p>于是执行以下命令将文件10个分为一组进行删除</p>
+<p><code>ls | xargs -n 10 rm -rf</code></p>
+<p>耗时几十分钟,删除成功</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://fsql.me/eth-quantitative-transaction/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="FreezingTiny">
+      <meta itemprop="description" content="PHPer">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="FreezingTiny's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/eth-quantitative-transaction/" class="post-title-link" itemprop="url">ETH量化交易工具(支持ERC20代币)</a>
+        </h2>
+
+        <div class="post-meta">
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-01-11 16:53:50 / 修改时间：17:06:13" itemprop="dateCreated datePublished" datetime="2021-01-11T16:53:50+08:00">2021-01-11</time>
+            </span>
+
+          
+            <span id="/eth-quantitative-transaction/" class="post-meta-item leancloud_visitors" data-flag-title="ETH量化交易工具(支持ERC20代币)" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/eth-quantitative-transaction/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/eth-quantitative-transaction/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody" >
+
+      
+          <p>#项目起源<br>ERC20代币空投不断，朋友告诉我可以以此来薅羊毛并且有人以此获利数十万，于是这个项目就诞生了。</p>
+<p>这个项目可以批量生成地址，批量交易ETH或ERC20代币</p>
+<p>支持一对多、多对一、多对多交易</p>
+<p>我自己试过几次，手续费有点感人，大概￥50交易一次，批量养号的话我是养不起的，如果有大佬想合作可以联系我<br>#项目地址<br><a target="_blank" rel="noopener" href="http://eth.fsql.net/">http://eth.fsql.net/</a></p>
+<p>暂时没考虑开源，想使用的小伙伴可以私信我获取账号</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://fsql.me/get-new-domain-loli-watch/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -933,7 +1108,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-count">9</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -946,7 +1121,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -993,7 +1168,7 @@
 <div class="copyright">
   
   &copy; 
-  <span itemprop="copyrightYear">2020</span>
+  <span itemprop="copyrightYear">2021</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>

@@ -4,6 +4,48 @@
   
     
     <entry>
+      <title>centos删除大量文件</title>
+      <link href="/delete-a-large-number-of-files/"/>
+      <url>/delete-a-large-number-of-files/</url>
+      
+        <content type="html"><![CDATA[<p>今天在查看服务器时发现磁盘使用率巨高，新加的200G云盘已经用了70%多</p><p>经过排查发现是crontab的输出记录，文件路径是<br><code>/var/spool/postfix/maildrop</code></p><p>尝试 <code>rm -rf *</code></p><p>结果提示 <code>Argument list too long</code></p><p>文件太多无法直接删掉</p><p>于是执行以下命令将文件10个分为一组进行删除</p><p><code>ls | xargs -n 10 rm -rf</code></p><p>耗时几十分钟,删除成功</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 运维 </tag>
+            
+            <tag> centos </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ETH量化交易工具(支持ERC20代币)</title>
+      <link href="/eth-quantitative-transaction/"/>
+      <url>/eth-quantitative-transaction/</url>
+      
+        <content type="html"><![CDATA[<p>#项目起源<br>ERC20代币空投不断，朋友告诉我可以以此来薅羊毛并且有人以此获利数十万，于是这个项目就诞生了。</p><p>这个项目可以批量生成地址，批量交易ETH或ERC20代币</p><p>支持一对多、多对一、多对多交易</p><p>我自己试过几次，手续费有点感人，大概￥50交易一次，批量养号的话我是养不起的，如果有大佬想合作可以联系我<br>#项目地址<br><a href="http://eth.fsql.net/">http://eth.fsql.net/</a></p><p>暂时没考虑开源，想使用的小伙伴可以私信我获取账号</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> eth </tag>
+            
+            <tag> 区块链 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>获得新域名:loli.watch</title>
       <link href="/get-new-domain-loli-watch/"/>
       <url>/get-new-domain-loli-watch/</url>
